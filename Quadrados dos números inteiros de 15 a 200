@@ -1,0 +1,9 @@
+Algoritmo "Quadrados_15_a_200"
+Var
+   i, quadrado: inteiro
+Inicio
+   Para i de 15 até 200 passo 1 faca
+      quadrado <- i * i
+      Escreval("Quadrado de ", i, " = ", quadrado)
+   FimPara
+FimAlgoritmo
