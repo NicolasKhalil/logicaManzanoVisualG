@@ -1,0 +1,27 @@
+Algoritmo "Area_Residencia"
+Var
+   nomeComodo, continuar: caractere
+   largura, comprimento, area, areaTotal: real
+Inicio
+   areaTotal <- 0
+   continuar <- "SIM"
+
+   Enquanto continuar <> "NAO" faca
+      Escreva("Nome do cômodo: ")
+      Leia(nomeComodo)
+      Escreva("Largura (m): ")
+      Leia(largura)
+      Escreva("Comprimento (m): ")
+      Leia(comprimento)
+
+      area <- largura * comprimento
+      areaTotal <- areaTotal + area
+
+      Escreval("Área do ", nomeComodo, ": ", area, " m²")
+
+      Escreva("Deseja adicionar outro cômodo? (SIM/NAO): ")
+      Leia(continuar)
+   FimEnquanto
+
+   Escreval("Área total da residência: ", areaTotal, " m²")
+FimAlgoritmo
