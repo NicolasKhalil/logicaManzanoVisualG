@@ -1,0 +1,19 @@
+Algoritmo "Divisao_Inteira_Sem_DIV"
+Var
+   dividendo, divisor, quociente: inteiro
+Inicio
+   Escreva("Digite o dividendo: ")
+   Leia(dividendo)
+
+   Escreva("Digite o divisor: ")
+   Leia(divisor)
+
+   quociente <- 0
+
+   Enquanto dividendo >= divisor faca
+      dividendo <- dividendo - divisor
+      quociente <- quociente + 1
+   FimEnquanto
+
+   Escreval("Resultado da divisão inteira: ", quociente)
+FimAlgoritmo
