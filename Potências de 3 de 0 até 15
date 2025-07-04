@@ -1,0 +1,16 @@
+Algoritmo "Potencias_de_3"
+Var
+   expoente, i, resultado, contador: inteiro
+Inicio
+   Para expoente de 0 até 15 passo 1 faca
+      resultado <- 1
+      contador <- 1
+
+      Enquanto contador <= expoente faca
+         resultado <- resultado * 3
+         contador <- contador + 1
+      FimEnquanto
+
+      Escreval("3^", expoente, " = ", resultado)
+   FimPara
+FimAlgoritmo
