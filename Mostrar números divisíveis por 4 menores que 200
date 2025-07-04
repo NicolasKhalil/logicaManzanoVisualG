@@ -1,0 +1,12 @@
+Algoritmo "Divisiveis_por_4"
+Var
+   i: inteiro
+Inicio
+   i <- 1
+   Enquanto i < 200 faca
+      Se i % 4 = 0 Entao
+         Escreval(i)
+      FimSe
+      i <- i + 1
+   FimEnquanto
+FimAlgoritmo
