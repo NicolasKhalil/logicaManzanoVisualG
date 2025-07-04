@@ -1,0 +1,15 @@
+Algoritmo "Graos_Tabuleiro"
+Var
+   i: inteiro
+   graos, total: real
+Inicio
+   graos <- 1
+   total <- 1
+
+   Para i de 2 até 64 passo 1 faca
+      graos <- graos * 2
+      total <- total + graos
+   FimPara
+
+   Escreval("Total de grãos no tabuleiro: ", total)
+FimAlgoritmo
