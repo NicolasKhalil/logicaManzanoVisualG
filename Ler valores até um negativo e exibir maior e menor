@@ -1,0 +1,33 @@
+Algoritmo "Maior_Menor_Valor"
+Var
+   valor, maior, menor: inteiro
+   primeiro: logico
+Inicio
+   primeiro <- verdadeiro
+
+   Enquanto verdadeiro faca
+      Escreva("Digite um valor (negativo para sair): ")
+      Leia(valor)
+
+      Se valor < 0 Entao
+         Pare
+      FimSe
+
+      Se primeiro = verdadeiro Entao
+         maior <- valor
+         menor <- valor
+         primeiro <- falso
+      Senao
+         Se valor > maior Entao
+            maior <- valor
+         FimSe
+
+         Se valor < menor Entao
+            menor <- valor
+         FimSe
+      FimSe
+   FimEnquanto
+
+   Escreval("Maior valor: ", maior)
+   Escreval("Menor valor: ", menor)
+FimAlgoritmo
