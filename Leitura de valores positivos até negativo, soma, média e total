@@ -1,0 +1,28 @@
+Algoritmo "Leitura_Valores_Ate_Negativo"
+Var
+   valor, soma, total: real
+   contador: inteiro
+Inicio
+   soma <- 0
+   contador <- 0
+
+   Enquanto verdadeiro faca
+      Escreva("Digite um valor (negativo para parar): ")
+      Leia(valor)
+
+      Se valor < 0 Entao
+         Pare
+      FimSe
+
+      soma <- soma + valor
+      contador <- contador + 1
+   FimEnquanto
+
+   Se contador > 0 Entao
+      Escreval("Soma: ", soma)
+      Escreval("Total de valores: ", contador)
+      Escreval("Média: ", soma / contador)
+   Senao
+      Escreval("Nenhum valor válido foi digitado.")
+   FimSe
+FimAlgoritmo
