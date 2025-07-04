@@ -1,0 +1,10 @@
+Algoritmo "Impares_0_20"
+Var
+   i: inteiro
+Inicio
+   Para i de 0 até 20 passo 1 faca
+      Se i % 2 <> 0 Entao
+         Escreval(i)
+      FimSe
+   FimPara
+FimAlgoritmo
