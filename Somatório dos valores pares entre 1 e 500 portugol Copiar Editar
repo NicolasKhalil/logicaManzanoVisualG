@@ -1,0 +1,12 @@
+Algoritmo "Soma_Pares_1_500"
+Var
+   i, soma: inteiro
+Inicio
+   soma <- 0
+   Para i de 1 até 500 passo 1 faca
+      Se i % 2 = 0 Entao
+         soma <- soma + i
+      FimSe
+   FimPara
+   Escreval("Soma dos pares de 1 a 500: ", soma)
+FimAlgoritmo
