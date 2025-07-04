@@ -1,0 +1,14 @@
+Algoritmo "Fatorial_Impares_1_10"
+Var
+   i, j, fatorial: inteiro
+Inicio
+   Para i de 1 até 10 passo 1 faca
+      Se i % 2 <> 0 Entao
+         fatorial <- 1
+         Para j de 1 até i passo 1 faca
+            fatorial <- fatorial * j
+         FimPara
+         Escreval("Fatorial de ", i, " = ", fatorial)
+      FimSe
+   FimPara
+FimAlgoritmo
