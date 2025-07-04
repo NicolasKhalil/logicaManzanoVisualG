@@ -1,0 +1,12 @@
+Algoritmo "Tabuada_Numero"
+Var
+   numero, i, resultado: inteiro
+Inicio
+   Escreva("Digite um número para ver a tabuada: ")
+   Leia(numero)
+
+   Para i de 1 até 10 passo 1 faca
+      resultado <- numero * i
+      Escreval(numero, " x ", i, " = ", resultado)
+   FimPara
+FimAlgoritmo
