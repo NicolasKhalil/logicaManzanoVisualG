@@ -1,0 +1,20 @@
+Algoritmo "Soma_Fatoriais_15_Valores"
+Var
+   i, j, valor, fatorial, soma: inteiro
+Inicio
+   soma <- 0
+
+   Para i de 1 até 15 passo 1 faca
+      Escreva("Digite o ", i, "º valor: ")
+      Leia(valor)
+
+      fatorial <- 1
+      Para j de 1 até valor passo 1 faca
+         fatorial <- fatorial * j
+      FimPara
+
+      soma <- soma + fatorial
+   FimPara
+
+   Escreval("Somatório dos fatoriais: ", soma)
+FimAlgoritmo
