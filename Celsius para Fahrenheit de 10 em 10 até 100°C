@@ -1,0 +1,9 @@
+Algoritmo "Celsius_para_Fahrenheit"
+Var
+   celsius, fahrenheit: real
+Inicio
+   Para celsius de 10 até 100 passo 10 faca
+      fahrenheit <- (celsius * 9 / 5) + 32
+      Escreval("Celsius: ", celsius, " -> Fahrenheit: ", fahrenheit)
+   FimPara
+FimAlgoritmo
