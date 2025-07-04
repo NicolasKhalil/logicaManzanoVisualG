@@ -1,0 +1,12 @@
+Algoritmo "Soma_1_a_100"
+Var
+   i, soma: inteiro
+Inicio
+   soma <- 0
+
+   Para i de 1 até 100 passo 1 faca
+      soma <- soma + i
+   FimPara
+
+   Escreval("Soma dos 100 primeiros números: ", soma)
+FimAlgoritmo
