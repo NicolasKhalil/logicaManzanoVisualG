@@ -1,0 +1,12 @@
+Algoritmo "Potencias_de_3"
+Var
+   i, j, resultado: inteiro
+Inicio
+   Para i de 0 até 15 passo 1 faca
+      resultado <- 1
+      Para j de 1 até i passo 1 faca
+         resultado <- resultado * 3
+      FimPara
+      Escreval("3^", i, " = ", resultado)
+   FimPara
+FimAlgoritmo
